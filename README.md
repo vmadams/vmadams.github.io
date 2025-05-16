@@ -1,2 +1,2 @@
-Assignments.# vmadams.github.io
+# vmadams.github.io
 This repository contains files for CIS300 Project Assignments.
