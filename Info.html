@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Home" content="width=device-width, initial-scale=1.0" />
+  <title>My Jersey List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">My Jersey List</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Dining.html">Dining</a>
+        <a href="Sights.html">Sights</a>
+        <a href="Info.html">Info</a>
+      </nav>
+    </header>
+
+  <section class="hero">
+      <div class="hero-overlay">
+        <h1>Visit the Beautiful State of New Jersey</h1>
+      </div>
+    </section>
+
+<main>
+
+  <h2 style="color: #7848c3; text-align: center; margin-top: 2rem;">Have Questions? Contact Us!</h2>
+  <form class="form-section">
+    <div>
+      <label for="firstName">First Name:</label><br>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label><br>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+    <div>
+      <label for="location">Location You're Visiting From:</label><br>
+      <select id="location" name="location" required>
+        <option value="" disabled selected>Select your location</option>
+        <option value="United States">United States</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone">
+    </div>
+    <div>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="visitDate">Date of Visit:</label><br>
+      <input type="date" id="visitDate" name="visitDate" required>
+    </div>
+    <div>
+      <label for="comment">Comment:</label><br>
+      <textarea id="comment" name="comment" rows="4" required></textarea>
+    </div>
+    <button type="submit">
+      Submit
+    </button>
+  </form>
+
+</main>
+
+    <footer>
+      © 2025 My Jersey List<br>
+      myjerseylist@email.com<br>
+      111-222-3333
+    </footer>
+  </div>
+</body>
+</html>

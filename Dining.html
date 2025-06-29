@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Home" content="width=device-width, initial-scale=1.0" />
+  <title>My Jersey List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">My Jersey List</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Dining.html">Dining</a>
+        <a href="Sights.html">Sights</a>
+        <a href="Info.html">Info</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay">
+        <h1>Visit the Beautiful State of New Jersey</h1>
+      </div>
+    </section>
+    <main>
+   
+     
+      <div class="fancy-box">
+           <h2>
+        Discover the Best Dining in New Jersey
+      </h2>
+        <p>
+          Over the past few years, I've made it a mission to try out a variety of restaurants and cafes across New Jersey. These are some of 
+          my personal favorites that I highly recommend—places that truly stand out for their delicious food, unique atmosphere, and memorable
+          experiences. I hope you enjoy them as much as I have! If you want to comment below on your favorite restaurants or cafes, I would
+          love to hear your thoughts!
+        </p>
+      </div>
+
+      <table class="custom-table">
+        <tr>
+          <th>Restaurant</th>
+          <th>Location</th>
+          <th>Cuisine</th>
+          <th>Specialties</th>
+        </tr>
+        <tr>
+          <td>Razza Pizzeria</td>
+          <td>Jersey City</td>
+          <td>Italian</td>
+          <td>Wood-fired pizza, seasonal ingredients</td>
+        </tr>
+        <tr>
+          <td>Las Leyendas</td>
+          <td>Morris Plains</td>
+          <td>Latin</td>
+          <td>Burrito Grande with Carnitas</td>
+        </tr>
+        <tr>
+          <td>Rutts Hut</td>
+          <td>Clinton</td>
+          <td>American</td>
+          <td>Deep fried hot dogs, ranked #1 in the U.S.</td>
+        </tr>
+        <tr>
+          <td>SmartWorld Coffee</td>
+          <td>Denville</td>
+          <td>American</td>
+          <td>Matcha and Lox Bagel</td>
+        </tr>
+      </table>
+
+      <div style="display: flex; justify-content: center; gap: 1.5rem; margin: 2rem 0;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="burrito.jpg" alt="Burrito Grande with Carnitas" style="width: 220px; height: 150px; object-fit: cover; border-radius: 8px;">
+          <span style="margin-top: 0.5rem; color: #7848c3; font-weight: bold;">Burrito Grande with Carnitas</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="smartworld.jpg" alt="SmartWorld Coffee" style="width: 220px; height: 150px; object-fit: cover; border-radius: 8px;">
+          <span style="margin-top: 0.5rem; color: #7848c3; font-weight: bold;">SmartWorld Coffee</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="razza.jpg" alt="Razza Pizzeria" style="width: 220px; height: 150px; object-fit: cover; border-radius: 8px;">
+          <span style="margin-top: 0.5rem; color: #7848c3; font-weight: bold;">Razza Pizzeria</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="ruttshut.jpg" alt="Rutts Hut" style="width: 220px; height: 150px; object-fit: cover; border-radius: 8px;">
+          <span style="margin-top: 0.5rem; color: #7848c3; font-weight: bold;">Rutts Hut</span>
+        </div>
+      </div>
+
+  
+      <div class="fancy-box">
+        <span>
+          🍽️ <strong>Helpful Links:</strong>
+          <a href="https://razzanj.com/" target="_blank">Razza</a> |
+          <a href="https://www.leyendasrestaurant.com/eat/" target="_blank">Las Leyendas</a> |
+          <a href="https://smartworldcoffee.com/" target="_blank">SmartWorld Coffee</a> |
+          <a href="https://www.ruttshut.com/" target="_blank">Rutt's Hut</a>
+        </span>
+      </div>
+
+      <div style="margin: 2rem auto; max-width: 500px; text-align: center;">
+        <h3 style="color: #7848c3;">Leave a Review</h3>
+        <form id="reviewForm">
+          <textarea 
+            rows="4" 
+            style="width: 100%; border: 1px solid #ccc; border-radius: 6px; padding: 0.75rem; font-size: 1rem; resize: vertical;"
+            placeholder="Share your thoughts about these restaurants..."></textarea>
+          <br>
+          <button 
+            type="submit" 
+            style="margin-top: 1rem; background: #7848c3; color: #fff; border: none; border-radius: 6px; padding: 0.5rem 1.5rem; font-size: 1rem; cursor: pointer;">
+            Submit
+          </button>
+        </form>
+        <div id="reviewThanks" style="margin-top: 1.5rem; color: #7848c3; font-weight: bold;"></div>
+      </div>
+
+    </main>
+      
+      </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 My Jersey List<br>
+      myjerseylist@email.com<br>
+      111-222-3333
+    </footer>
+  </div>
+</body>
+</html>
