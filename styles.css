@@ -316,7 +316,7 @@ footer {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(120,72,195,0.10);
   width: 340px;
-  height: 192px; /* 16:9 aspect ratio for a rectangular look */
+  height: 192px; 
   object-fit: cover;
   background: #000;
 }
